@@ -1,10 +1,6 @@
-# Project - _Movies_
+# Assessment Test Project
 
-**Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
-
-Time spent: **10** hours spent in total
-
-## User Stories
+## Requirement
 
 The following **required** and **option** functionality is completed:
 
@@ -17,6 +13,39 @@ The following **required** and **option** functionality is completed:
 - [x] Build Style of UI with TailwindCSS.
 - [x] Build E2E Automation test with Cypress.
 - [x] UI responsive.
+
+## Installation
+
+App requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Config environment variable:
+
+> DEV environment
+
+```sh
+cd assessment-project-react-v2.2.2
+yarn
+yarn dev
+
+```
+
+> PROP environment
+
+```sh
+cd assessment-project-react-v2.2.2
+yarn build
+yarn preview
+
+```
+
+> E2E Test
+
+```sh
+cd assessment-project-react-v2.2.2
+yarn dev
+yarn cy:e2e
+
+```
 
 ## Production
 
