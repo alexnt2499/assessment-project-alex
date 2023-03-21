@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import CreateInvoicePage from "../containers/CreateInvoicePage";
 import DashboardPage from "../containers/DashboardPage";
 import LoginPage from "../containers/LoginPage";
@@ -6,7 +6,7 @@ import NotFoundPage from "../containers/NotFoundPage";
 import UserInfoPage from "../containers/UserInfoPage";
 import ProtectedRouter from "./ProtectedRouter";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "*",
     element: <NotFoundPage />,
